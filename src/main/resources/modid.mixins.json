@@ -3,7 +3,7 @@
 	"package": "com.example.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ClientMixins$MixinKeyboard", "ClientMixins$MixinPlayer", "ClientMixins$MixinHud", "ClientMixins$MixinHand"
 	],
 	"injectors": {
 		"defaultRequire": 1
